@@ -14,9 +14,9 @@ import org.apache.log4j.PropertyConfigurator;
 
 public class DriverManager {
     static AppiumDriver driver;
+    static Logger logger = Logger.getLogger("DriverManager");
 
     public static void initializeDriver(){
-        Logger logger = Logger.getLogger("DriverManager");
         try{
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
