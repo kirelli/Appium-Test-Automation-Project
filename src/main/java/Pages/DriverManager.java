@@ -27,11 +27,11 @@ public class DriverManager {
         URL url = null;
         try{
            url= new URL("http://0.0.0.0:4723/wd/hub");
+           driver = new AndroidDriver(url, caps);
   
         }catch(MalformedURLException ex){
               logger.info(mainPageLabel);
         }
-        driver = new AndroidDriver(url, caps);
     }
 
     public static AppiumDriver getDriver(){
