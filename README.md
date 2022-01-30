@@ -25,7 +25,7 @@ Framework implements below best practices
 - Integrated with Log4J2 Logging framework
 
 
-Apk Screen Home Page Screen
+Selendroid Apk Home Page Screen
 =========================================  
 
 - Android Studio - Android Nexus Emulator
