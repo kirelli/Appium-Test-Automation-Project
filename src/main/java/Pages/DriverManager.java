@@ -16,7 +16,7 @@ public class DriverManager {
     static AppiumDriver driver;
     static Logger logger = Logger.getLogger("DriverManager");
 
-    public static void initializeDriver(){
+    public static void initializeDriver() throws Exception {
         try{
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
@@ -34,7 +34,7 @@ public class DriverManager {
 
         }catch (Exception e) {
             logger.error(String.format("error:%s", e.getMessage()));
-            e.printStackTrace();
+            throw new Exception();
         }
     }
 
