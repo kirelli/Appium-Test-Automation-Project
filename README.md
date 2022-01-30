@@ -30,4 +30,5 @@ Apk Screen Home Page Screen
 
 - Android Studio - Android Nexus Emulator
 
-![image](https://user-images.githubusercontent.com/5862877/151710967-b7dd265e-9468-4e39-aaca-7c506d89fb6e.png)
+![emulator](https://user-images.githubusercontent.com/5862877/151711091-399b912e-23ce-4480-81e3-c65a22433acf.jpg)
+
