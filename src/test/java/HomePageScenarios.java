@@ -13,7 +13,7 @@ public class HomePageScenarios {
 
     AppiumDriver driver;
     CSVRead testDatas;
-    Logger logger = Logger.getLogger("DriverManager");
+    Logger logger = Logger.getLogger("HomePageScenarios");
 
     @Before
     public void setUp() throws MalformedURLException {
