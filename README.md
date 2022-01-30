@@ -23,3 +23,11 @@ Framework implements below best practices
 - Supports Android platform
 - Demonstrates how to define UI elements that are common across pages (e.g. menu bar, side bar, etc.)
 - Integrated with Log4J2 Logging framework
+
+
+Apk Screen Home Page Screen
+=========================================  
+
+- Android Studio - Android Nexus Emulator
+
+![image](https://user-images.githubusercontent.com/5862877/151710967-b7dd265e-9468-4e39-aaca-7c506d89fb6e.png)
