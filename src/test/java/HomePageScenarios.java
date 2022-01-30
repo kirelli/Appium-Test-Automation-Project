@@ -8,10 +8,12 @@ import java.net.MalformedURLException;
 import Utils.CSVRead;
 import org.apache.log4j.Logger;
 
+
 public class HomePageScenarios {
 
     AppiumDriver driver;
     CSVRead testDatas;
+    Logger logger = Logger.getLogger("DriverManager");
 
     @Before
     public void setUp() throws MalformedURLException {
