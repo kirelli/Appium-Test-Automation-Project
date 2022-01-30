@@ -27,9 +27,9 @@ public class DriverManager {
         URL url = null;
         try{
            url= new URL("http://0.0.0.0:4723/wd/hub");
-            //more code goes here
+  
         }catch(MalformedURLException ex){
-            System.out.println("The url is not well formed");
+              logger.info(mainPageLabel);
         }
         driver = new AndroidDriver(url, caps);
     }
