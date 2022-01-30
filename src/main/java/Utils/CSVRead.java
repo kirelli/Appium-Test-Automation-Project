@@ -12,7 +12,7 @@ public class CSVRead {
         String[] datas = null;
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("src/main/resources/CSVRead.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("src/main/resources/TestData.csv"));
             while ((line = br.readLine()) != null)
             {
                 datas = line.split(splitBy);
