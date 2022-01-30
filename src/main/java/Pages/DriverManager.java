@@ -24,9 +24,8 @@ public class DriverManager {
         String andAppUrl = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main"
                 + File.separator + "resources" + File.separator + "selendroid-test-app-0.17.0.apk";
         caps.setCapability(MobileCapabilityType.APP, andAppUrl);
-        URL url = null;
         try{
-           url= new URL("http://0.0.0.0:4723/wd/hub");
+           URL url= new URL("http://0.0.0.0:4723/wd/hub");
            driver = new AndroidDriver(url, caps);
   
         }catch(MalformedURLException ex){
