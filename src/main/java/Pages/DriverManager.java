@@ -14,10 +14,11 @@ import org.apache.log4j.PropertyConfigurator;
 
 public class DriverManager {
     static AppiumDriver driver;
-    static Logger logger = Logger.getLogger("DriverManager");
+    static Logger logger;
 
     public static void initializeDriver() throws Exception {
         try{
+        logger = Logger.getLogger("DriverManager");
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 3");
